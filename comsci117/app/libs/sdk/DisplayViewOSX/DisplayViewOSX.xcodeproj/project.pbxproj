@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC36D8DF1899E36900173D02 /* WFDisplaySoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC36D8DE1899E36900173D02 /* WFDisplaySoundPlayer.m */; };
+		EC36D8E21899E62300173D02 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36D8E11899E62300173D02 /* libc++.dylib */; };
+		EC6F693A17C9A6E700DE47CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6F693917C9A6E700DE47CC /* AudioToolbox.framework */; };
+		EC6F693C17C9A6EE00DE47CC /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6F693B17C9A6EE00DE47CC /* AudioUnit.framework */; };
+		ECDBB82A196D191D004A7ACC /* WFDisplayConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDBB829196D191D004A7ACC /* WFDisplayConnectionController.m */; };
+		ECDBB830196F849F004A7ACC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDBB82F196F849F004A7ACC /* CoreGraphics.framework */; };
+		ECDBB832196F84CD004A7ACC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDBB831196F84CD004A7ACC /* QuartzCore.framework */; };
+		ECE2997A17A7F96900A79671 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE2997917A7F96900A79671 /* Cocoa.framework */; };
+		ECE2998417A7F96900A79671 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECE2998217A7F96900A79671 /* InfoPlist.strings */; };
+		ECE2998617A7F96900A79671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE2998517A7F96900A79671 /* main.m */; };
+		ECE2998A17A7F96900A79671 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ECE2998817A7F96900A79671 /* Credits.rtf */; };
+		ECE2998D17A7F96900A79671 /* WFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE2998C17A7F96900A79671 /* WFAppDelegate.m */; };
+		ECE2999017A7F96900A79671 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE2998E17A7F96900A79671 /* MainMenu.xib */; };
+		ECE2999917A7F9AD00A79671 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE2999817A7F9AD00A79671 /* IOBluetooth.framework */; };
+		ECE2999B17A7F9B700A79671 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE2999A17A7F9B700A79671 /* IOKit.framework */; };
+		ECE299A117A7FD4C00A79671 /* WFConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE299A017A7FD4C00A79671 /* WFConnector.framework */; };
+		ECE299A417A7FDD300A79671 /* WFDisplayPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE299A317A7FDD300A79671 /* WFDisplayPageVC.m */; };
+		ECE299AF17A8A2FE00A79671 /* EchoBody.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE299A917A8A2FE00A79671 /* EchoBody.png */; };
+		ECE299B017A8A2FE00A79671 /* EchoBody@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE299AA17A8A2FE00A79671 /* EchoBody@2x.png */; };
+		ECE299B117A8A2FE00A79671 /* RFLKTBody.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE299AB17A8A2FE00A79671 /* RFLKTBody.png */; };
+		ECE299B217A8A2FE00A79671 /* RFLKTBody@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE299AC17A8A2FE00A79671 /* RFLKTBody@2x.png */; };
+		ECE299B317A8A2FE00A79671 /* RFLKTReflection.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE299AD17A8A2FE00A79671 /* RFLKTReflection.png */; };
+		ECE299B417A8A2FE00A79671 /* RFLKTReflection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE299AE17A8A2FE00A79671 /* RFLKTReflection@2x.png */; };
+		ECE299C517A8D53100A79671 /* Icons.iconset in Resources */ = {isa = PBXBuildFile; fileRef = ECE299C417A8D53100A79671 /* Icons.iconset */; };
+		ECE81F5C1BA5DA3100100510 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE81F5B1BA5DA3100100510 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC36D8DE1899E36900173D02 /* WFDisplaySoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFDisplaySoundPlayer.m; sourceTree = "<group>"; };
+		EC36D8E01899E42F00173D02 /* WFDisplaySoundPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFDisplaySoundPlayer.h; sourceTree = "<group>"; };
+		EC36D8E11899E62300173D02 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		EC6F693917C9A6E700DE47CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EC6F693B17C9A6EE00DE47CC /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		ECDBB828196D191D004A7ACC /* WFDisplayConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFDisplayConnectionController.h; sourceTree = "<group>"; };
+		ECDBB829196D191D004A7ACC /* WFDisplayConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFDisplayConnectionController.m; sourceTree = "<group>"; };
+		ECDBB82F196F849F004A7ACC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECDBB831196F84CD004A7ACC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ECE2997617A7F96900A79671 /* DisplayViewOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayViewOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE2997917A7F96900A79671 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ECE2997C17A7F96900A79671 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ECE2997D17A7F96900A79671 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ECE2997E17A7F96900A79671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECE2998117A7F96900A79671 /* DisplayViewOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DisplayViewOSX-Info.plist"; sourceTree = "<group>"; };
+		ECE2998317A7F96900A79671 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECE2998517A7F96900A79671 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECE2998717A7F96900A79671 /* DisplayViewOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DisplayViewOSX-Prefix.pch"; sourceTree = "<group>"; };
+		ECE2998917A7F96900A79671 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ECE2998B17A7F96900A79671 /* WFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFAppDelegate.h; sourceTree = "<group>"; };
+		ECE2998C17A7F96900A79671 /* WFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAppDelegate.m; sourceTree = "<group>"; };
+		ECE2998F17A7F96900A79671 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ECE2999817A7F9AD00A79671 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		ECE2999A17A7F9B700A79671 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		ECE299A017A7FD4C00A79671 /* WFConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WFConnector.framework; path = ../dependencies/mac_osx/WFConnector.framework; sourceTree = "<group>"; };
+		ECE299A217A7FDD300A79671 /* WFDisplayPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFDisplayPageVC.h; sourceTree = "<group>"; };
+		ECE299A317A7FDD300A79671 /* WFDisplayPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFDisplayPageVC.m; sourceTree = "<group>"; };
+		ECE299A917A8A2FE00A79671 /* EchoBody.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EchoBody.png; sourceTree = "<group>"; };
+		ECE299AA17A8A2FE00A79671 /* EchoBody@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EchoBody@2x.png"; sourceTree = "<group>"; };
+		ECE299AB17A8A2FE00A79671 /* RFLKTBody.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RFLKTBody.png; sourceTree = "<group>"; };
+		ECE299AC17A8A2FE00A79671 /* RFLKTBody@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RFLKTBody@2x.png"; sourceTree = "<group>"; };
+		ECE299AD17A8A2FE00A79671 /* RFLKTReflection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RFLKTReflection.png; sourceTree = "<group>"; };
+		ECE299AE17A8A2FE00A79671 /* RFLKTReflection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RFLKTReflection@2x.png"; sourceTree = "<group>"; };
+		ECE299C417A8D53100A79671 /* Icons.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = Icons.iconset; sourceTree = "<group>"; };
+		ECE81F5B1BA5DA3100100510 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECE2997317A7F96900A79671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE81F5C1BA5DA3100100510 /* SystemConfiguration.framework in Frameworks */,
+				ECDBB832196F84CD004A7ACC /* QuartzCore.framework in Frameworks */,
+				ECDBB830196F849F004A7ACC /* CoreGraphics.framework in Frameworks */,
+				EC36D8E21899E62300173D02 /* libc++.dylib in Frameworks */,
+				EC6F693C17C9A6EE00DE47CC /* AudioUnit.framework in Frameworks */,
+				EC6F693A17C9A6E700DE47CC /* AudioToolbox.framework in Frameworks */,
+				ECE2999B17A7F9B700A79671 /* IOKit.framework in Frameworks */,
+				ECE2999917A7F9AD00A79671 /* IOBluetooth.framework in Frameworks */,
+				ECE2997A17A7F96900A79671 /* Cocoa.framework in Frameworks */,
+				ECE299A117A7FD4C00A79671 /* WFConnector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECE2996D17A7F96900A79671 = {
+			isa = PBXGroup;
+			children = (
+				ECE299C417A8D53100A79671 /* Icons.iconset */,
+				ECE2997F17A7F96900A79671 /* DisplayViewOSX */,
+				ECE2997817A7F96900A79671 /* Frameworks */,
+				ECE2997717A7F96900A79671 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE2997717A7F96900A79671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE2997617A7F96900A79671 /* DisplayViewOSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE2997817A7F96900A79671 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECE81F5B1BA5DA3100100510 /* SystemConfiguration.framework */,
+				ECDBB831196F84CD004A7ACC /* QuartzCore.framework */,
+				ECDBB82F196F849F004A7ACC /* CoreGraphics.framework */,
+				EC36D8E11899E62300173D02 /* libc++.dylib */,
+				EC6F693B17C9A6EE00DE47CC /* AudioUnit.framework */,
+				EC6F693917C9A6E700DE47CC /* AudioToolbox.framework */,
+				ECE299A017A7FD4C00A79671 /* WFConnector.framework */,
+				ECE2999A17A7F9B700A79671 /* IOKit.framework */,
+				ECE2999817A7F9AD00A79671 /* IOBluetooth.framework */,
+				ECE2997917A7F96900A79671 /* Cocoa.framework */,
+				ECE2997B17A7F96900A79671 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE2997B17A7F96900A79671 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECE2997C17A7F96900A79671 /* AppKit.framework */,
+				ECE2997D17A7F96900A79671 /* CoreData.framework */,
+				ECE2997E17A7F96900A79671 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ECE2997F17A7F96900A79671 /* DisplayViewOSX */ = {
+			isa = PBXGroup;
+			children = (
+				ECE2998017A7F96900A79671 /* Supporting Files */,
+				ECE299A817A8A2E200A79671 /* Resources */,
+				EC36D8E01899E42F00173D02 /* WFDisplaySoundPlayer.h */,
+				EC36D8DE1899E36900173D02 /* WFDisplaySoundPlayer.m */,
+				ECE2998B17A7F96900A79671 /* WFAppDelegate.h */,
+				ECE2998C17A7F96900A79671 /* WFAppDelegate.m */,
+				ECE299A217A7FDD300A79671 /* WFDisplayPageVC.h */,
+				ECE299A317A7FDD300A79671 /* WFDisplayPageVC.m */,
+				ECE2998E17A7F96900A79671 /* MainMenu.xib */,
+				ECDBB828196D191D004A7ACC /* WFDisplayConnectionController.h */,
+				ECDBB829196D191D004A7ACC /* WFDisplayConnectionController.m */,
+			);
+			path = DisplayViewOSX;
+			sourceTree = "<group>";
+		};
+		ECE2998017A7F96900A79671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECE2998117A7F96900A79671 /* DisplayViewOSX-Info.plist */,
+				ECE2998217A7F96900A79671 /* InfoPlist.strings */,
+				ECE2998517A7F96900A79671 /* main.m */,
+				ECE2998717A7F96900A79671 /* DisplayViewOSX-Prefix.pch */,
+				ECE2998817A7F96900A79671 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECE299A817A8A2E200A79671 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECE299A917A8A2FE00A79671 /* EchoBody.png */,
+				ECE299AA17A8A2FE00A79671 /* EchoBody@2x.png */,
+				ECE299AB17A8A2FE00A79671 /* RFLKTBody.png */,
+				ECE299AC17A8A2FE00A79671 /* RFLKTBody@2x.png */,
+				ECE299AD17A8A2FE00A79671 /* RFLKTReflection.png */,
+				ECE299AE17A8A2FE00A79671 /* RFLKTReflection@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECE2997517A7F96900A79671 /* DisplayViewOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE2999317A7F96900A79671 /* Build configuration list for PBXNativeTarget "DisplayViewOSX" */;
+			buildPhases = (
+				ECE2997217A7F96900A79671 /* Sources */,
+				ECE2997317A7F96900A79671 /* Frameworks */,
+				ECE2997417A7F96900A79671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisplayViewOSX;
+			productName = DisplayViewOSX;
+			productReference = ECE2997617A7F96900A79671 /* DisplayViewOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE2996E17A7F96900A79671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Wahoo Fitness";
+			};
+			buildConfigurationList = ECE2997117A7F96900A79671 /* Build configuration list for PBXProject "DisplayViewOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECE2996D17A7F96900A79671;
+			productRefGroup = ECE2997717A7F96900A79671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE2997517A7F96900A79671 /* DisplayViewOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECE2997417A7F96900A79671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE2998417A7F96900A79671 /* InfoPlist.strings in Resources */,
+				ECE2998A17A7F96900A79671 /* Credits.rtf in Resources */,
+				ECE2999017A7F96900A79671 /* MainMenu.xib in Resources */,
+				ECE299AF17A8A2FE00A79671 /* EchoBody.png in Resources */,
+				ECE299B017A8A2FE00A79671 /* EchoBody@2x.png in Resources */,
+				ECE299B117A8A2FE00A79671 /* RFLKTBody.png in Resources */,
+				ECE299B217A8A2FE00A79671 /* RFLKTBody@2x.png in Resources */,
+				ECE299B317A8A2FE00A79671 /* RFLKTReflection.png in Resources */,
+				ECE299B417A8A2FE00A79671 /* RFLKTReflection@2x.png in Resources */,
+				ECE299C517A8D53100A79671 /* Icons.iconset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE2997217A7F96900A79671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDBB82A196D191D004A7ACC /* WFDisplayConnectionController.m in Sources */,
+				ECE2998617A7F96900A79671 /* main.m in Sources */,
+				ECE2998D17A7F96900A79671 /* WFAppDelegate.m in Sources */,
+				EC36D8DF1899E36900173D02 /* WFDisplaySoundPlayer.m in Sources */,
+				ECE299A417A7FDD300A79671 /* WFDisplayPageVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECE2998217A7F96900A79671 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE2998317A7F96900A79671 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECE2998817A7F96900A79671 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE2998917A7F96900A79671 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ECE2998E17A7F96900A79671 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE2998F17A7F96900A79671 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECE2999117A7F96900A79671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECE2999217A7F96900A79671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECE2999417A7F96900A79671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../dependencies/mac_osx\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisplayViewOSX/DisplayViewOSX-Prefix.pch";
+				INFOPLIST_FILE = "DisplayViewOSX/DisplayViewOSX-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECE2999517A7F96900A79671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../dependencies/mac_osx\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisplayViewOSX/DisplayViewOSX-Prefix.pch";
+				INFOPLIST_FILE = "DisplayViewOSX/DisplayViewOSX-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE2997117A7F96900A79671 /* Build configuration list for PBXProject "DisplayViewOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE2999117A7F96900A79671 /* Debug */,
+				ECE2999217A7F96900A79671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE2999317A7F96900A79671 /* Build configuration list for PBXNativeTarget "DisplayViewOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE2999417A7F96900A79671 /* Debug */,
+				ECE2999517A7F96900A79671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECE2996E17A7F96900A79671 /* Project object */;
+}
