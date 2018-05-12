@@ -1,4 +1,4 @@
-# Step_To_The_Beat
+# Step To The Beat
 
 An Android application that serves as a pedometer and displays user’s heart rate from the Wahoo Tickr via Bluetooth.
 
