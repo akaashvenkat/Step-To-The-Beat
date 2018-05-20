@@ -3,52 +3,43 @@ package com.example.android.comsci117;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.wahoofitness.connector.HardwareConnector;
 import com.wahoofitness.connector.HardwareConnectorEnums;
 import com.wahoofitness.connector.HardwareConnectorTypes;
+import com.wahoofitness.connector.capabilities.Capability;
+import com.wahoofitness.connector.capabilities.Heartrate;
+
 import com.wahoofitness.connector.conn.connections.SensorConnection;
 import com.wahoofitness.connector.conn.connections.params.ConnectionParams;
 import com.wahoofitness.connector.listeners.discovery.DiscoveryListener;
 import com.wahoofitness.connector.listeners.discovery.DiscoveryResult;
 
+import java.util.HashSet;
+import java.util.Set;
+
+import static com.wahoofitness.connector.HardwareConnectorTypes.SensorType.CALORIMETER;
 import static com.wahoofitness.connector.HardwareConnectorTypes.SensorType.HEARTRATE;
 
 /**
  * Created by there on 5/12/2018.
  */
 
+
 public class HeartbeatServices extends Service {
-    private HardwareConnector mHardwareConnector;
 
+    public static final String TAG = "HeartBeat Service";
 
-    private final HardwareConnector.Callback mHardwareConnectorCallback = new HardwareConnector.Callback(){
-        @Override
-        public void disconnectedSensor(SensorConnection sensorConnection) {
-            return;
-        }
+    public DiscoveryListener discover_listener;
+    public SensorConnection mSensorConnection;
+    public SensorConnection.Listener heartrate_listener;
+    public Heartrate hr;
+    public Heartrate.Listener mHeartrateListener;
+    HardwareConnector mHardwareConnector;
+    HardwareConnector.Callback mHardwareConnectorCallback;
 
-        @Override
-        public void connectorStateChanged(HardwareConnectorTypes.NetworkType networkType, HardwareConnectorEnums.HardwareConnectorState hardwareConnectorState) {
-            return;
-        }
-
-        @Override
-        public void connectedSensor(SensorConnection sensorConnection) {
-            return;
-        }
-
-        @Override
-        public void onFirmwareUpdateRequired(SensorConnection sensorConnection, String s, String s1) {
-
-        }
-
-        @Override
-        public void hasData() {
-
-        }
-    };
 
     public IBinder onBind(Intent a) {
         return null;
@@ -56,31 +47,66 @@ public class HeartbeatServices extends Service {
 
     public void onCreate(){
         super.onCreate();
-        mHardwareConnector= new HardwareConnector(this,mHardwareConnectorCallback);
+        mHardwareConnector = new HardwareConnector(this, mHardwareConnectorCallback);
 
-        DiscoveryListener discover_listener = new DiscoveryListener() {
-            @Override
+    }
+
+    public void startDiscovery() {
+        Log.d("Eroor", "Error1");
+
+        discover_listener = new DiscoveryListener() {
+
             public void onDeviceDiscovered(ConnectionParams connectionParams) {
                 Toast.makeText(HeartbeatServices.this,"Discovered heartrate device.", Toast.LENGTH_LONG).show();
+
             }
 
-            @Override
             public void onDiscoveredDeviceLost(ConnectionParams connectionParams) {
                 Toast.makeText(HeartbeatServices.this,"Lost connections to heartrate device.", Toast.LENGTH_LONG).show();
             }
 
-            @Override
             public void onDiscoveredDeviceRssiChanged(ConnectionParams connectionParams, int i) {
             }
         };
 
-        mHardwareConnector.startDiscovery(HEARTRATE, HardwareConnectorTypes.NetworkType.BTLE, discover_listener);
+        mHardwareConnector.startDiscovery(HardwareConnectorTypes.SensorType.NONE, HardwareConnectorTypes.NetworkType.BTLE, discover_listener);
+    }
 
-        
-        SensorConnection sc = mHardwareConnector.requestSensorConnection();
+    public void onDeviceDiscovered(ConnectionParams connectionParams) {
+        heartrate_listener = new SensorConnection.Listener() {
+            @Override
+            public void onSensorConnectionStateChanged(SensorConnection sensorConnection, HardwareConnectorEnums.SensorConnectionState sensorConnectionState) {
+
+            }
+
+            @Override
+            public void onSensorConnectionError(SensorConnection sensorConnection, HardwareConnectorEnums.SensorConnectionError sensorConnectionError) {
+
+            }
+
+            @Override
+            public void onNewCapabilityDetected(SensorConnection sensorConnection, Capability.CapabilityType capabilityType) {
+                if (capabilityType == Capability.CapabilityType.Heartrate) {
+                    hr = (Heartrate) sensorConnection.getCurrentCapability(Capability.CapabilityType.Heartrate);
+                    hr.addListener(mHeartrateListener);
+                }
+            }
+        };
+
+        mSensorConnection = mHardwareConnector.requestSensorConnection(connectionParams, heartrate_listener);
 
         mHardwareConnector.stopDiscovery(HardwareConnectorTypes.NetworkType.BTLE);
+    }
 
+    public Heartrate.Data getHeartRateData(){
+        if (mSensorConnection != null && hr != null) {
+                return hr.getHeartrateData();
+        }
+        else return null;
+    }
+
+    public void removeDevice() {
+        mSensorConnection.disconnect();
     }
 
     public void onDestroy(){
