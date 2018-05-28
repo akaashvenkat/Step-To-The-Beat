@@ -1,0 +1,1045 @@
+
+
+{
+    "id" : "com.wahoofitness.TimexPageTemplates",
+    "buttons" :
+    {
+        "buttonSouthWestTouched": "",
+        "buttonSouthEastTouched": "",
+        "buttonNorthWestTouched": "hardwarePageLeft",
+        "buttonNorthEastTouched": "hardwarePageRight"
+    },
+
+    "pages": [
+
+
+              {
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+              "-" : "*** TemplateOneMetricWithControlBar",
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+
+              "key"    : "TemplateOneMetricWithControlBar",
+              "comment" : "1 Field: A blank template with 1 large field and Control Bar on the bottom",
+              "hidden"  : 0,
+              "elements": [
+                           {
+                           "type" : "group",
+                           "key" : "TimexPageIndicators",
+                           "groupId" : "TimexPageIndicators"
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "TimexControlBar",
+                           "groupId" : "TimexControlBar"
+                           },
+
+                           {
+                           "type" : "group",
+                           "groupId" : "TopDivider",
+                           "elements" : [
+                                         {
+                                         "type": "rect",
+                                         "frame": [6,33, 55,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [7,32, 54,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [8,31, 53,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [9,30, 52,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [10,29, 51,1]
+                                         }
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "SystemTime",
+                           "groupId" : "topStatusBar",
+                           "frame": [0,0,128,20],
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [20,0,88,16],
+                                         "value": "10:09 PM",
+                                         "align": "center",
+                                         "font": "SYSTEM12",
+                                         "key": "value",
+                                         "bold": 0,
+                                         "constant" : 0
+                                         }
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "firstMetric",
+                           "frame": [0,21,128,73],
+                           "elements" : [
+                                         {
+                                         "maxLength" : 18,
+                                         "bold" : false,
+                                         "type" : "string",
+                                         "align" : "Right",
+                                         "constant" : true,
+                                         "value" : "UNITS",
+                                         "color" : "Black",
+                                         "key" : "units",
+                                         "hidden" : false,
+                                         "frame" : [62,21,54,13],
+                                         "font" : "System10"
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [6,45,110,40],
+                                         "value": "--",
+                                         "align": "Right",
+                                         "font": "System39",
+                                         "key": "value",
+                                         "bold": 0,
+                                         "constant" : 0
+                                         }
+                                         ]
+                           }
+
+
+                           ]
+              },
+
+
+
+
+
+
+              {
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+              "-" : "***** TemplateTwoMetricWithControlBar",
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+
+              "key"    : "TemplateTwoMetricWithControlBar",
+              "comment" : "2 Field: A blank template with 1 large field, 1 smaller field and Control Bar on the bottom",
+              "hidden"  : 0,
+              "elements": [
+
+                           {
+                           "type" : "group",
+                           "key" : "TimexPageIndicators",
+                           "groupId" : "TimexPageIndicators"
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "TimexControlBar",
+                           "groupId" : "TimexControlBar"
+                           },
+
+
+                           {
+                           "type" : "group",
+                           "key" : "TopDivider",
+                           "groupId" : "TopDivider",
+                           "elements" : [
+                                         {
+                                         "type": "rect",
+                                         "frame": [6,33, 55,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [7,32, 54,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [8,31, 53,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [9,30, 52,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [10,29, 51,1]
+                                         }
+
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "MiddleDivider",
+                           "groupId" : "MiddleDivider",
+                           "elements" : [
+                                         {
+                                         "type": "rect",
+                                         "frame": [6,69,55,5],
+                                         "fillColor" : "black"
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [6,69,55,5],
+                                         "fillColor" : "black"
+                                         }
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "SystemTime",
+                           "groupId" : "topStatusBar",
+                           "frame": [0,0,128,20],
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [20,0,88,16],
+                                         "value": "10:09 PM",
+                                         "align": "center",
+                                         "font": "SYSTEM12",
+                                         "key": "value",
+                                         "bold": 0,
+                                         "constant" : 0
+                                         }
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "firstMetric",
+                           "frame": [0,21,128,44],
+                           "hidden" : 0,
+                           "elements" : [
+                                         {
+                                         "maxLength" : 18,
+                                         "bold" : false,
+                                         "type" : "string",
+                                         "align" : "Right",
+                                         "constant" : true,
+                                         "value" : "UNITS",
+                                         "color" : "Black",
+                                         "key" : "units",
+                                         "hidden" : false,
+                                         "frame" : [62, 21,54,13],
+                                         "font" : "System10"
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [6,39,110,26],
+                                         "value": "--",
+                                         "align": "Right",
+                                         "font": "System26",
+                                         "key": "value",
+                                         "bold": 0,
+                                         "constant" : 0
+                                         }
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "secondMetric",
+                           "frame": [0,66,128,35],
+                           "hidden" : 0,
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [62,66,54,13],
+                                         "value": "UNITS",
+                                         "align": "Right",
+                                         "font": "SYSTEM10",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [6,85,110,14],
+                                         "value": "--",
+                                         "align": "Right",
+                                         "font": "System14",
+                                         "key": "value",
+                                         "bold": 0,
+                                         "constant" : 0
+                                         }
+                                         ]
+                           }
+
+
+                           ]
+              },
+
+              {
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+              "-" : "***** TemplateThreeMetricWithControlBar",
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+
+              "key"    : "TemplateThreeMetricWithControlBar",
+              "comment" : "3 Field: A blank template with 1 large field, 2 smaller fields and Control Bar on the bottom",
+              "hidden"  : 0,
+              "elements": [
+                           {
+                           "type" : "group",
+                           "key" : "TimexPageIndicators",
+                           "groupId" : "TimexPageIndicators"
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "TimexControlBar",
+                           "groupId" : "TimexControlBar"
+                           },
+
+
+                           {
+                           "type" : "group",
+                           "key" : "TopDivider",
+                           "groupId" : "TopDivider",
+                           "elements" : [
+                                         {
+                                         "type": "rect",
+                                         "frame": [6,33, 55,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [7,32, 54,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [8,31, 53,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [9,30, 52,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [10,29, 51,1]
+                                         }
+
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "MiddleDivider",
+                           "groupId" : "MiddleDivider",
+                           "elements" : [
+                                         {
+                                         "type": "rect",
+                                         "frame": [6,69,16,5],
+                                         "fillColor" : "black"
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [65,69,16,5],
+                                         "fillColor" : "black"
+                                         }
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "SystemTime",
+                           "groupId" : "topStatusBar",
+                           "frame": [0,0,128,20],
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [20,0,88,16],
+                                         "value": "10:09 PM",
+                                         "align": "center",
+                                         "font": "SYSTEM12",
+                                         "key": "value",
+                                         "bold": 0,
+                                         "constant" : 0
+                                         }
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "firstMetric",
+                           "frame": [0,21,128,44],
+                           "hidden" : 0,
+                           "elements" : [
+                                         {
+                                         "maxLength" : 18,
+                                         "bold" : false,
+                                         "type" : "string",
+                                         "align" : "Right",
+                                         "constant" : true,
+                                         "value" : "UNITS",
+                                         "color" : "Black",
+                                         "key" : "units",
+                                         "hidden" : false,
+                                         "frame" : [62, 21,54,13],
+                                         "font" : "System10"
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [6,39,110,26],
+                                         "value": "--",
+                                         "align": "Right",
+                                         "font": "System26",
+                                         "key": "value",
+                                         "bold": 0,
+                                         "constant" : 0
+                                         }
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "secondMetric",
+                           "frame": [0,66,61,35],
+                           "hidden" : 0,
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [6,66,54,13],
+                                         "value": "UNITS",
+                                         "align": "Right",
+                                         "font": "SYSTEM10",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [6,85,54,14],
+                                         "value": "--",
+                                         "align": "Right",
+                                         "font": "System14",
+                                         "key": "value",
+                                         "bold": 0,
+                                         "constant" : 0
+                                         }
+                                         ]
+                           },
+
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "thirdMetric",
+                           "frame": [61,66,67,35],
+                           "hidden" : 0,
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [62,66,54,13],
+                                         "value": "UNITS",
+                                         "align": "Right",
+                                         "font": "SYSTEM10",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [64,85,52,14],
+                                         "value": "--",
+                                         "align": "Right",
+                                         "font": "System14",
+                                         "key": "value",
+                                         "bold": 0,
+                                         "constant" : 0
+                                         }
+                                         ]
+                           }
+
+                           ]
+              },
+
+
+              {
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+              "-" : "***** TemplateTwoMetric",
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+
+              "key"    : "TemplateTwoMetric",
+              "comment" : "2 Field: A blank template with 2 large field.",
+              "hidden"  : 0,
+              "elements": [ {
+                           "type" : "group",
+                           "key" : "TimexPageIndicators",
+                           "groupId" : "TimexPageIndicators"
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "TopDivider",
+                           "groupId" : "TopDivider",
+                           "elements" : [
+                                         {
+                                         "type": "rect",
+                                         "frame": [6,13, 55,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [7,12, 54,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [8,11, 53,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [9,10, 52,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [10,9, 51,1]
+                                         }
+
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "MiddleDivider",
+                           "groupId" : "MiddleDivider",
+                           "elements" : [
+                                         {
+                                         "type": "rect",
+                                         "frame": [6,73,55,5],
+                                         "fillColor" : "black"
+                                         }
+                                         ]
+                           },
+
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "firstMetric",
+                           "frame": [0,0,128,64],
+                           "hidden" : 0,
+                           "elements" : [
+                                         {
+                                         "maxLength" : 18,
+                                         "bold" : false,
+                                         "type" : "string",
+                                         "align" : "Right",
+                                         "constant" : true,
+                                         "value" : "UNITS",
+                                         "color" : "Black",
+                                         "key" : "units",
+                                         "hidden" : false,
+                                         "frame" : [62,1,54,13],
+                                         "font" : "System10"
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [6,20,110,39],
+                                         "value": "--",
+                                         "align": "Right",
+                                         "font": "System39",
+                                         "key": "value",
+                                         "bold": 0,
+                                         "constant" : 0
+                                         }
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "secondMetric",
+                           "frame": [0,64,128,64],
+                           "hidden" : 0,
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [62,65,54,13],
+                                         "value": "UNITS",
+                                         "align": "Right",
+                                         "font": "SYSTEM10",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [6,84,110,39],
+                                         "value": "--",
+                                         "align": "Right",
+                                         "font": "System39",
+                                         "key": "value",
+                                         "bold": 0,
+                                         "constant" : 0
+                                         }
+                                         ]
+                           }
+
+
+                           ]
+              },
+
+              {
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+              "-" : "***** TemplateThreeMetric",
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+
+              "key"    : "TemplateThreeMetric",
+              "comment" : "3 Fields: A blank template with 3 maximized fields",
+              "hidden"  : 0,
+              "elements": [
+
+                           {
+                           "type" : "group",
+                           "key" : "TimexPageIndicators",
+                           "groupId" : "TimexPageIndicators"
+                           },
+                           {
+                           "type" : "group",
+                           "key" : "TopDivider",
+                           "groupId" : "TopDivider",
+                           "elements" : [
+                                         {
+                                         "type": "rect",
+                                         "frame": [2,6, 37,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [3,5, 36,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [4,4, 35,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [5,3, 34,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [6,2, 33,1]
+                                         }
+
+                                         ]
+                           },
+
+                           {
+                           "type" : "group-disabled",
+                           "key" : "MiddleDivider",
+                           "groupId" : "MiddleDivider",
+                           "elements" : [
+                                         {
+                                         "type": "rect",
+                                         "frame": [2,46, 37,3],
+                                         "fillColor" : "black"
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [2,81, 37,3],
+                                         "fillColor" : "black"
+                                         }
+                                         ]
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "BottomDivider",
+                           "groupId" : "BottomDivider",
+                           "elements" : [
+                                         {
+                                         "type": "rect",
+                                         "frame": [6,126, 33,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [5,125, 34,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [4,124, 35,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [3,123, 36,1]
+                                         },
+                                         {
+                                         "type": "rect",
+                                         "frame": [2,122, 37,1]
+                                         }
+
+                                         ]
+                           },
+
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "firstMetrics",
+                           "frame": [0,0,128,43],
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [2,6,35,16],
+                                         "value": "UNITS",
+                                         "align": "left",
+                                         "font": "SYSTEM12",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [37,2,81,40],
+                                         "value": "--",
+                                         "align": "right",
+                                         "font": "System39",
+                                         "key": "value",
+                                         "bold": 1
+                                         }
+                                         ]
+                           },
+
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "secondMetric",
+                           "frame": [0,43,128,43],
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [2,55,35,16],
+                                         "value": "UNITS",
+                                         "align": "left",
+                                         "font": "SYSTEM12",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [37,45,81,40],
+                                         "value": "--",
+                                         "align": "right",
+                                         "font": "System39",
+                                         "key": "value",
+                                         "bold": 1
+                                         }
+                                         ]
+                           },
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "thirdMetric",
+                           "frame": [0,86,128,42],
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [2,103,35,16],
+                                         "value": "UNITS",
+                                         "align": "left",
+                                         "font": "SYSTEM12",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [37,88,81,40],
+                                         "value": "--",
+                                         "align": "right",
+                                         "font": "System39",
+                                         "key": "value",
+                                         "bold": 1
+                                         }
+                                         ]
+                           }
+                           ]
+              },
+              {
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+              "-" : "***** TemplateTimex5A",
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+
+
+              "key"    : "TemplateTimex5A",
+              "comment" : "5 Fields: A blank template with 5 maximized fields",
+              "hidden"  : 0,
+              "elements": [
+
+                           {
+                           "type" : "group",
+                           "key" : "TimexPageIndicators",
+                           "groupId" : "TimexPageIndicators"
+                           },
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "1",
+                           "frame": [0,0,128,26],
+                           "elements" : [
+
+                                         {
+                                         "type": "string",
+                                         "frame": [2,3,35,16],
+                                         "value": "UNITS",
+                                         "align": "right",
+                                         "font": "System12",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [43,0,75,26],
+                                         "value": "00.0",
+                                         "align": "right",
+                                         "font": "System26",
+                                         "key": "value",
+                                         "bold": 1
+                                         }
+                                         ]
+                           },
+
+
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "2",
+                           "frame": [0,26,128,26],
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [83,30,35,16],
+                                         "value": "UNITS",
+                                         "align": "left",
+                                         "font": "SYSTEM12",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [2,26,75,26],
+                                         "value": "00.0",
+                                         "align": "left",
+                                         "font": "System26",
+                                         "key": "value",
+                                         "bold": 1
+                                         }
+                                         ]
+                           },
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "3",
+                           "frame": [0,51,128,26],
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [2,54,35,16],
+                                         "value": "UNITS",
+                                         "align": "left",
+                                         "font": "SYSTEM12",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [43,51,75,26],
+                                         "value": "00.0",
+                                         "align": "right",
+                                         "font": "System26",
+                                         "key": "value",
+                                         "bold": 1
+                                         }
+                                         ]
+                           },
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "4",
+                           "frame": [0,76,128,26],
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [83,79,35,16],
+                                         "value": "UNITS",
+                                         "align": "right",
+                                         "font": "SYSTEM12",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [3,76,75,26],
+                                         "value": "00.0",
+                                         "align": "left",
+                                         "font": "System26",
+                                         "key": "value",
+                                         "bold": 1
+                                         }
+                                         ]
+                           },
+                           {
+                           "type" : "group",
+                           "key" : "Blank",
+                           "groupId" : "5",
+                           "frame": [0,101,128,28],
+                           "elements" : [
+                                         {
+                                         "type": "string",
+                                         "frame": [2,105,35,16],
+                                         "value": "UNITS",
+                                         "align": "left",
+                                         "font": "SYSTEM12",
+                                         "key": "units",
+                                         "bold": 0,
+                                         "constant" : 1
+                                         },
+                                         {
+                                         "type": "string",
+                                         "frame": [43,101,75,28],
+                                         "value": "00.0",
+                                         "align": "right",
+                                         "font": "System26",
+                                         "key": "value",
+                                         "bold": 1
+                                         }
+                                         ]
+                           }
+                           ]
+              },
+
+              {
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+              "-" : "*** TemplateAlert",
+              "-" : "*******************************************************************************************************************",
+              "-" : "*******************************************************************************************************************",
+
+
+              "key" : "TemplateAlert",
+              "comment" : "Alert: A blank template with small text fields.  Ideal for showing music, workout state etc.",
+              "elements" : [
+                            {
+                            "type" : "group",
+                            "frame" : [50,10,30,30],
+                            "groupId" : "icon",
+                            "key" : "customImage",
+                            "hidden" : false,
+                            "elements" : [
+                                          {
+                                          "type" : "bitmap",
+                                          "value" : "////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////",
+                                          "key" : "bitmap",
+                                          "frame" : [50,10,30,30],
+                                          "transparentColor" : 3,
+                                          "hidden" : false
+                                          }
+                                          ]
+                            },
+
+                            {
+                            "type" : "group",
+                            "key" : "Blank",
+                            "frame" : [0,82,128,32],
+                            "groupId" : "bottomMetric",
+                            "hidden" : false,
+                            "elements" : [
+                                          {
+                                          "maxLength" : 18,
+                                          "bold" : false,
+                                          "type" : "string",
+                                          "align" : "Center",
+                                          "constant" : false,
+                                          "value" : "UNIT 2",
+                                          "color" : "Black",
+                                          "key" : "units",
+                                          "hidden" : false,
+                                          "frame" : [2,82,124,16],
+                                          "font" : "System16"
+                                          },
+
+                                          {
+                                          "maxLength" : 18,
+                                          "bold" : false,
+                                          "type" : "string",
+                                          "align" : "Center",
+                                          "constant" : false,
+                                          "value" : "00:00",
+                                          "color" : "Black",
+                                          "key" : "value",
+                                          "hidden" : false,
+                                          "frame" : [2,98,124,16],
+                                          "font" : "System16"
+                                          }
+                                          ]
+
+                            },
+
+                            {
+                            "type" : "group",
+                            "key" : "Blank",
+                            "frame" : [0,48,128, 32],
+                            "groupId" : "topMetric",
+                            "elements" : [
+                                          {
+                                          "maxLength" : 18,
+                                          "bold" : false,
+                                          "type" : "string",
+                                          "align" : "Center",
+                                          "constant" : false,
+                                          "value" : "UNIT 1",
+                                          "color" : "Black",
+                                          "key" : "units",
+                                          "hidden" : false,
+                                          "frame" : [2,48,124,16],
+                                          "font" : "System16"
+                                          },
+                                          {
+                                          "maxLength" : 18,
+                                          "bold" : false,
+                                          "type" : "string",
+                                          "align" : "Center",
+                                          "constant" : false,
+                                          "value" : "00",
+                                          "color" : "Black",
+                                          "key" : "value",
+                                          "hidden" : false,
+                                          "frame" : [2,64,124,16],
+                                          "font" : "System16"
+                                          }
+                                          ]
+                            }
+
+                            ]
+              }
+
+
+              ]
+
+}

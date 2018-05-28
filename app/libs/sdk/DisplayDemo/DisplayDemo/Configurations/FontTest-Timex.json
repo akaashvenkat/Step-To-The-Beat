@@ -1,0 +1,67 @@
+{
+    
+    "id" : "com.wahoofitness.appName",
+    
+    "pages": [
+              
+              
+              {
+              "key"    : "Page1",
+              "hidden"  : 0,
+              "elements": [
+
+                           {
+                           "type": "string",
+                           "frame": [0,0,128,128],
+                           "align": "left",
+                           "font": "System10",
+                           "bold": 0,
+                           "key" : "",
+                           "value" : "10"
+                           },
+                           
+
+                           {
+                           "type": "string",
+                           "frame": [20,0,128,128],
+                           "align": "left",
+                           "font": "System12",
+                           "bold": 0,
+                           "key" : "",
+                           "value" : "12"
+                           },
+
+                           {
+                           "type": "string",
+                           "frame": [38,0,128,128],
+                           "align": "left",
+                           "font": "System14",
+                           "bold": 0,
+                           "key" : "",
+                           "value" : "14"
+                           },
+                           
+                           {
+                           "type": "string",
+                           "frame": [60,0,128,128],
+                           "align": "left",
+                           "font": "System26",
+                           "bold": 0,
+                           "key" : "",
+                           "value" : "26"
+                           },
+
+                           {
+                           "type": "string",
+                           "frame": [93,0,128,128],
+                           "align": "left",
+                           "font": "System39",
+                           "bold": 0,
+                           "key" : "",
+                           "value" : "39"
+                           },
+
+                           ]
+              }
+              ]
+}

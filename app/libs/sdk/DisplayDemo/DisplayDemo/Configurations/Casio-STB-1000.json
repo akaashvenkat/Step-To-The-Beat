@@ -1,0 +1,256 @@
+{
+    
+    "id" : "com.wahoofitness.casio",
+    
+    "pages": [
+              
+              
+              {
+              "key"    : "Page1",
+              "hidden"  : 0,
+              "elements": [
+                           
+                           {
+                           "type" : "group",
+                           "key" : "Speed",
+                           "frame": [64,74,64,54],
+                           "elements" : [
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "primary",
+                                         "key": "ValueString",
+                                         "value" : "23.93",
+                                         },
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "tertiary",
+                                         "key": "UnitsString",
+                                         "value" : "SPEED",
+                                         },
+                                         ]
+						   },
+                           
+                           
+                           {
+                           "type" : "group",
+                           "key" : "WorkoutTime",
+                           "frame": [64,74,64,54],
+                           "elements" : [
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "secondary",
+                                         "key": "ValueString",
+                                         "value" : "88:88",
+                                         },
+                                         
+                                         ]
+                           }
+                           
+                           ]
+              },
+              
+              
+              {
+              "key"    : "Page2",
+              "hidden"  : 0,
+              "elements": [
+                           
+                           {
+                           "type" : "group",
+                           "key" : "Heartrate",
+                           "frame": [64,74,64,54],
+                           "elements" : [
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "primary",
+                                         "key": "ValueString",
+                                         "value" : "123",
+                                         },
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "tertiary",
+                                         "key": "UnitsString",
+                                         "value" : "HR",
+                                         },
+                                         
+                                         ]
+						   },
+                           
+                           {
+                           "type" : "group",
+                           "key" : "WorkoutTime",
+                           "frame": [64,74,64,54],
+                           "elements" : [
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "secondary",
+                                         "key": "ValueString",
+                                         "value" : "00:00",
+                                         },
+                                         
+                                         ]
+                           }
+                           
+                           
+                           
+                           ]
+              },
+              
+              
+              {
+              "key"    : "Page3",
+              "hidden"  : 0,
+              "elements": [
+                           
+                           {
+                           "type" : "group",
+                           "key" : "Cadence",
+                           "frame": [64,74,64,54],
+                           "elements" : [
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "primary",
+                                         "key": "ValueString",
+                                         "value" : "89",
+                                         },
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "tertiary",
+                                         "key": "UnitsString",
+                                         "value" : "CAD",
+                                         },
+                                         
+                                         ]
+						   },
+                           
+                           {
+                           "type" : "group",
+                           "key" : "WorkoutTime",
+                           "frame": [64,74,64,54],
+                           "elements" : [
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "secondary",
+                                         "key": "ValueString",
+                                         "value" : "00:00",
+                                         },
+                                         
+                                         ]
+                           }
+                           
+                           
+                           
+                           ]
+              },
+              
+              
+              {
+              "key"    : "Page4",
+              "hidden"  : 0,
+              "elements": [
+                           
+                           {
+                           "type" : "group",
+                           "key" : "Power",
+                           "frame": [64,74,64,54],
+                           "elements" : [
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "primary",
+                                         "key": "ValueString",
+                                         "value" : "1023",
+                                         },
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "tertiary",
+                                         "key": "UnitsString",
+                                         "value" : "POWER",
+                                         },
+                                         
+                                         ]
+						   },
+                           
+                           {
+                           "type" : "group",
+                           "key" : "WorkoutTime",
+                           "frame": [64,74,64,54],
+                           "elements" : [
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "secondary",
+                                         "key": "ValueString",
+                                         "value" : "00:00",
+                                         },
+                                         
+                                         ]
+                           }
+                           
+                           
+                           
+                           ]
+              },
+              
+              
+              {
+              "key"    : "Page5",
+              "hidden"  : 0,
+              "elements": [
+                           
+                           {
+                           "type" : "group",
+                           "key" : "Speed",
+                           "frame": [64,74,64,54],
+                           "elements" : [
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "primary",
+                                         "key": "ValueString",
+                                         "value" : "88:88:88",
+                                         },
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "tertiary",
+                                         "key": "UnitsString",
+                                         "value" : "TIME",
+                                         },
+                                         ]
+						   },
+                           
+                           
+                           {
+                           "type" : "group",
+                           "key" : "WorkoutTime",
+                           "frame": [64,74,64,54],
+                           "elements" : [
+                                         
+                                         {
+                                         "type": "string",
+                                         "location": "secondary",
+                                         "key": "ValueString",
+                                         "value" : "88:88",
+                                         },
+                                         
+                                         ]
+                           }
+                           
+                           ]
+              },
+              
+              ]
+    
+    
+}

@@ -1,0 +1,31 @@
+
+{
+        
+        "id" : "com.wahoofitness.noConfig",
+        
+        "buttons" :
+        {
+            "buttonSoutWest": "",
+            "buttonSoutEast": "",
+            "buttonNorthWest": "",
+            "buttonNorthEast": ""
+        },
+        
+        "pages": [
+                  {
+                  "key"    : "Page1",
+                  "hidden"  : 0,
+                  "elements": [
+                               {
+                               "type": "string",
+                               "frame": [64,64,0,0],
+                               "value": "No Config",
+                               "align": 1,
+                               "font": 0,
+                               "bold": 1,
+                               }
+                               ]
+                  }
+                  ]
+    
+}
