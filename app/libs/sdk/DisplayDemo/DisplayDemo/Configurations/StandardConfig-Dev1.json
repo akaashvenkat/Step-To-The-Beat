@@ -1,0 +1,94 @@
+
+
+{
+    "id" : "com.wahoofitness.TimexPageTemplates",
+    "buttons" :
+    {
+        "buttonSouthWestTouched": "hardwarePageRight",
+        "buttonSouthEastTouched": "hardwarePageRight",
+        "buttonNorthWestTouched": "hardwarePageRight",
+        "buttonNorthEastTouched": "hardwarePageRight"
+    },
+    
+    "pages": [
+              
+              {
+              
+              "key"    : "FontTest",
+              "hidden"  : 0,
+              "elements": [
+                           
+                           
+                           
+                           {
+                           "type": "string",
+                           "frame": [3,0,35,10],
+                           "value": "10",
+                           "align": "left",
+                           "font": "SYSTEM10",
+                           "key": "units",
+                           "bold": 0,
+                           "constant" : 1
+                           },
+                           
+                           {
+                           "type": "string",
+                           "frame": [20,0,35,12],
+                           "value": "12",
+                           "align": "left",
+                           "font": "SYSTEM12",
+                           "key": "units",
+                           "bold": 0,
+                           "constant" : 1
+                           },
+                           
+                           {
+                           "type": "string",
+                           "frame": [40,0,35,14],
+                           "value": "14",
+                           "align": "left",
+                           "font": "SYSTEM14",
+                           "key": "units",
+                           "bold": 0,
+                           "constant" : 1
+                           },
+                           
+                           {
+                           "type": "string",
+                           "frame": [60,0,35,26],
+                           "value": "26",
+                           "align": "left",
+                           "font": "SYSTEM26",
+                           "key": "units",
+                           "bold": 0,
+                           "constant" : 1
+                           },
+
+                           {
+                           "type": "string",
+                           "frame": [90,0,35,39],
+                           "value": "39",
+                           "align": "left",
+                           "font": "SYSTEM39",
+                           "key": "units",
+                           "bold": 0,
+                           "constant" : 1
+                           },
+                           
+                           {
+                           "type": "string",
+                           "frame": [0,90,128,39],
+                           "value": "9671287367821637812687",
+                           "align": "left",
+                           "font": "SYSTEM39",
+                           "key": "units",
+                           "bold": 0,
+                           "constant" : 1
+                           },
+                           
+                           ]
+              },
+              
+              ]
+    
+}

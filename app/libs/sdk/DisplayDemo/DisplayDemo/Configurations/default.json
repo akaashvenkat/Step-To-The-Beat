@@ -1,0 +1,1020 @@
+{
+    "defaultButtonFunctions" : {
+        "buttonSouthWestTouched" : {
+            "key" : "LAP",
+            "name" : "Lap"
+        },
+        "buttonSouthEastTouched" : {
+            "key" : "hardwarePageRight",
+            "name" : "Next Page"
+        },
+        "buttonNorthEastTouched" : {
+            "key" : "NEXT_SONG",
+            "name" : "Next Track"
+        },
+        "buttonNorthWestTouched" : {
+            "key" : "PREV_SONG",
+            "name" : "Previous Track"
+        }
+    },
+    "pages" : [
+               {
+               "key" : "Template4.5.0",
+               "hidden" : false,
+               "elements" : [
+                             {
+                             "type" : "rect",
+                             "frame" : [
+                                        0,
+                                        0,
+                                        128,
+                                        128
+                                        ],
+                             "fillColor" : "None",
+                             "comment" : "full screen bounding box",
+                             "color" : "Black",
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "rect",
+                             "frame" : [
+                                        0,
+                                        0,
+                                        128,
+                                        20
+                                        ],
+                             "fillColor" : "None",
+                             "comment" : "top section bounding box",
+                             "color" : "Black",
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "rect",
+                             "frame" : [
+                                        64,
+                                        19,
+                                        64,
+                                        109
+                                        ],
+                             "fillColor" : "None",
+                             "color" : "Black",
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "rect",
+                             "frame" : [
+                                        0,
+                                        74,
+                                        128,
+                                        54
+                                        ],
+                             "fillColor" : "None",
+                             "color" : "Black",
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "rect",
+                             "frame" : [
+                                        64,
+                                        74,
+                                        64,
+                                        54
+                                        ],
+                             "fillColor" : "None",
+                             "color" : "Black",
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "00.0",
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "maxLength" : 4,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      0,
+                                                      42,
+                                                      64,
+                                                      0
+                                                      ],
+                                           "font" : "System19"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Right",
+                                           "value" : "KM",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      25,
+                                                      25,
+                                                      34,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "\/\/\/\/8P\/\/\/wD\/\/\/8A\/P\/\/AMD\/\/wMA\/\/8DAPD\/DwDA\/\/\/\/A\/z\/\/\/\/w\/\/\/\/D\/\/\/\/\/\/8\/\/\/\/\/\/\/\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      5,
+                                                      22,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "DistanceWorkout",
+                             "frame" : [
+                                        0,
+                                        20,
+                                        64,
+                                        54
+                                        ],
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "00.0",
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "maxLength" : 5,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      64,
+                                                      42,
+                                                      64,
+                                                      0
+                                                      ],
+                                           "font" : "System19"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Right",
+                                           "value" : "KM\/H",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      90,
+                                                      25,
+                                                      34,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "\/\/\/\/\/\/\/\/A\/z\/\/wD\/8\/\/D\/w\/\/D\/8\/PD\/8\/8DD8P8D\/wD\/D\/wP8D\/A\/wD\/D\/8P\/\/\/\/\/\/\/\/\/\/\/\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      69,
+                                                      22,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "Speed",
+                             "frame" : [
+                                        64,
+                                        20,
+                                        64,
+                                        54
+                                        ],
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "00.0",
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "maxLength" : 3,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      0,
+                                                      96,
+                                                      64,
+                                                      0
+                                                      ],
+                                           "font" : "System19"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Right",
+                                           "value" : "RPM",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      25,
+                                                      79,
+                                                      34,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "\/\/8A\/\/\/\/8A\/\/\/8P\/8\/8\/\/\/z8\/\/PDz\/8\/D\/z8\/zPw8\/\/\/ww\/\/\/w8D\/\/\/\/\/P\/\/PwD8\/\/\/\/\/\/\/\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      5,
+                                                      76,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "Cadence",
+                             "frame" : [
+                                        0,
+                                        74,
+                                        64,
+                                        54
+                                        ],
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "000",
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "maxLength" : 3,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      64,
+                                                      96,
+                                                      64,
+                                                      0
+                                                      ],
+                                           "font" : "System19"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Right",
+                                           "value" : "BPM",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      89,
+                                                      79,
+                                                      34,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "P8AP8P8AMAD8AwAAAD8AAADwAwAAAP8AAAD8PwAA8P8PAMD\/\/wMA\/\/\/\/APz\/\/z\/w\/\/\/\/z\/\/\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      69,
+                                                      76,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "Heartrate",
+                             "frame" : [
+                                        64,
+                                        74,
+                                        64,
+                                        54
+                                        ],
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "",
+                                           "value" : "00:00",
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "maxLength" : 8,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      25,
+                                                      5,
+                                                      103,
+                                                      10
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "\/w8A\/\/8PAAD\/P8A\/wP\/ADz\/wA\/\/wDzz8D\/\/Dw\/8APzzw\/8DAD\/z\/A\/8D\/AP8\/wAA8P\/\/APD\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      5,
+                                                      2,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "WorkoutTotalTime",
+                             "frame" : [
+                                        0,
+                                        0,
+                                        128,
+                                        20
+                                        ],
+                             "hidden" : false
+                             }
+                             ]
+               },
+               {
+               "key" : "Template3b.1",
+               "hidden" : false,
+               "elements" : [
+                             {
+                             "type" : "rect",
+                             "frame" : [
+                                        0,
+                                        70,
+                                        128,
+                                        1
+                                        ],
+                             "fillColor" : "None",
+                             "color" : "Black",
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "rect",
+                             "frame" : [
+                                        64,
+                                        70,
+                                        1,
+                                        58
+                                        ],
+                             "fillColor" : "None",
+                             "color" : "Black",
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "00.0",
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "maxLength" : 4,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      0,
+                                                      18,
+                                                      128,
+                                                      0
+                                                      ],
+                                           "font" : "System48"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Right",
+                                           "value" : "KM\/H",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      25,
+                                                      4,
+                                                      98,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "\/\/\/\/\/\/\/\/A\/z\/\/wD\/8\/\/D\/w\/\/D\/8\/PD\/8\/8DD8P8D\/wD\/D\/wP8D\/A\/wD\/D\/8P\/\/\/\/\/\/\/\/\/\/\/\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      3,
+                                                      3,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "Speed",
+                             "frame" : [
+                                        0,
+                                        0,
+                                        128,
+                                        70
+                                        ],
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "00.0",
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "maxLength" : 4,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      0,
+                                                      92,
+                                                      64,
+                                                      0
+                                                      ],
+                                           "font" : "System19"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "",
+                                           "value" : "AVG",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      25,
+                                                      73,
+                                                      36,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "\/\/\/\/\/\/\/\/A\/z\/\/wD\/8\/\/D\/w\/\/D\/8\/PD\/8\/8DD8P8D\/wD\/D\/wP8D\/A\/wD\/D\/8P\/\/\/\/\/\/\/\/\/\/\/\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      3,
+                                                      72,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "SpeedAverageWorkout",
+                             "frame" : [
+                                        0,
+                                        70,
+                                        64,
+                                        58
+                                        ],
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "00.0",
+                                           "maxLength" : 4,
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      64,
+                                                      92,
+                                                      64,
+                                                      0
+                                                      ],
+                                           "font" : "System19"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "",
+                                           "value" : "MAX",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      89,
+                                                      73,
+                                                      36,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "\/\/\/\/\/\/\/\/A\/z\/\/wD\/8\/\/D\/w\/\/D\/8\/PD\/8\/8DD8P8D\/wD\/D\/wP8D\/A\/wD\/D\/8P\/\/\/\/\/\/\/\/\/\/\/\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      67,
+                                                      72,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "SpeedMaxWorkout",
+                             "frame" : [
+                                        64,
+                                        70,
+                                        64,
+                                        58
+                                        ],
+                             "hidden" : false
+                             }
+                             ]
+               },
+               {
+               "key" : "Template3b.0",
+               "hidden" : false,
+               "elements" : [
+                             {
+                             "type" : "rect",
+                             "frame" : [
+                                        0,
+                                        70,
+                                        128,
+                                        1
+                                        ],
+                             "fillColor" : "None",
+                             "color" : "Black",
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "rect",
+                             "frame" : [
+                                        64,
+                                        70,
+                                        1,
+                                        58
+                                        ],
+                             "fillColor" : "None",
+                             "color" : "Black",
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "000",
+                                           "maxLength" : 3,
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      0,
+                                                      18,
+                                                      128,
+                                                      0
+                                                      ],
+                                           "font" : "System48"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Right",
+                                           "value" : "BPM",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      25,
+                                                      4,
+                                                      98,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "P8AP8P8AMAD8AwAAAD8AAADwAwAAAP8AAAD8PwAA8P8PAMD\/\/wMA\/\/\/\/APz\/\/z\/w\/\/\/\/z\/\/\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      3,
+                                                      3,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "Heartrate",
+                             "frame" : [
+                                        0,
+                                        0,
+                                        128,
+                                        70
+                                        ],
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "000",
+                                           "maxLength" : 3,
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      0,
+                                                      92,
+                                                      64,
+                                                      0
+                                                      ],
+                                           "font" : "System19"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "",
+                                           "value" : "AVG",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      25,
+                                                      73,
+                                                      36,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "P8AP8P8AMAD8AwAAAD8AAADwAwAAAP8AAAD8PwAA8P8PAMD\/\/wMA\/\/\/\/APz\/\/z\/w\/\/\/\/z\/\/\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      3,
+                                                      72,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "HeartrateAverageWorkout",
+                             "frame" : [
+                                        0,
+                                        70,
+                                        64,
+                                        58
+                                        ],
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "000",
+                                           "maxLength" : 3,
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      64,
+                                                      92,
+                                                      64,
+                                                      0
+                                                      ],
+                                           "font" : "System19"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "",
+                                           "value" : "MAX",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      89,
+                                                      73,
+                                                      36,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "P8AP8P8AMAD8AwAAAD8AAADwAwAAAP8AAAD8PwAA8P8PAMD\/\/wMA\/\/\/\/APz\/\/z\/w\/\/\/\/z\/\/\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      67,
+                                                      72,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "HeartrateMaxWorkout",
+                             "frame" : [
+                                        64,
+                                        70,
+                                        64,
+                                        58
+                                        ],
+                             "hidden" : false
+                             }
+                             ]
+               },
+               {
+               "key" : "Template3.0",
+               "hidden" : false,
+               "elements" : [
+                             {
+                             "type" : "rect",
+                             "frame" : [
+                                        0,
+                                        42,
+                                        128,
+                                        1
+                                        ],
+                             "fillColor" : "None",
+                             "color" : "Black",
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "rect",
+                             "frame" : [
+                                        0,
+                                        84,
+                                        128,
+                                        1
+                                        ],
+                             "fillColor" : "None",
+                             "color" : "Black",
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "00",
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "maxLength" : 3,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      0,
+                                                      14,
+                                                      128,
+                                                      0
+                                                      ],
+                                           "font" : "System26"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Right",
+                                           "value" : "LAP NO",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      25,
+                                                      3,
+                                                      98,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      5,
+                                                      2,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "SegmentCount",
+                             "frame" : [
+                                        0,
+                                        0,
+                                        128,
+                                        42
+                                        ],
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "00.0",
+                                           "maxLength" : 4,
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      0,
+                                                      56,
+                                                      128,
+                                                      0
+                                                      ],
+                                           "font" : "System26"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Right",
+                                           "value" : "KM LAP",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      25,
+                                                      45,
+                                                      98,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "\/\/\/\/8P\/\/\/wD\/\/\/8A\/P\/\/AMD\/\/wMA\/\/8DAPD\/DwDA\/\/\/\/A\/z\/\/\/\/w\/\/\/\/D\/\/\/\/\/\/8\/\/\/\/\/\/\/\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      5,
+                                                      44,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "DistanceLap",
+                             "frame" : [
+                                        0,
+                                        42,
+                                        128,
+                                        42
+                                        ],
+                             "hidden" : false
+                             },
+                             {
+                             "type" : "group",
+                             "elements" : [
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Center",
+                                           "value" : "00:00",
+                                           "maxLength" : 8,
+                                           "color" : "Black",
+                                           "key" : "value",
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      0,
+                                                      98,
+                                                      128,
+                                                      0
+                                                      ],
+                                           "font" : "System26"
+                                           },
+                                           {
+                                           "bold" : false,
+                                           "type" : "string",
+                                           "align" : "Right",
+                                           "value" : "LAP",
+                                           "color" : "Black",
+                                           "key" : "units",
+                                           "constant" : 1,
+                                           "hidden" : false,
+                                           "frame" : [
+                                                      25,
+                                                      87,
+                                                      98,
+                                                      0
+                                                      ],
+                                           "font" : "System10"
+                                           },
+                                           {
+                                           "type" : "bitmap",
+                                           "value" : "\/w8A\/\/8PAAD\/P8A\/wP\/ADz\/wA\/\/wDzz8D\/\/Dw\/8APzzw\/8DAD\/z\/A\/8D\/AP8\/wAA8P\/\/APD\/",
+                                           "key" : "IconBitmap",
+                                           "frame" : [
+                                                      5,
+                                                      86,
+                                                      18,
+                                                      12
+                                                      ],
+                                           "transparentColor" : 3,
+                                           "hidden" : false
+                                           }
+                                           ],
+                             "key" : "LapRunningTime",
+                             "frame" : [
+                                        0,
+                                        84,
+                                        128,
+                                        42
+                                        ],
+                             "hidden" : false
+                             }
+                             ]
+               }
+               ],
+    "pageButtonFunctions" : {
+        
+    },
+    "id" : "com.wahoofitness.defaultBikingConfig",
+    "name" : "Default Biking Config",
+    "pageTriggers" : {
+        "UserCreated10" : {
+            "key" : "LAPCHANGE",
+            "name" : "Lap button pressed"
+        }
+    },
+    "buttons" : {
+        "buttonSouthWestTouched" : "",
+        "buttonSouthEastTouched" : "hardwarePageRight",
+        "buttonNorthEastTouched" : "",
+        "buttonNorthWestTouched" : ""
+    }
+}
