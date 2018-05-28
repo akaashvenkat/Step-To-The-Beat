@@ -1,0 +1,38 @@
+{
+    
+    "id" : "com.wahoofitness.appName",
+    
+    
+    "strings": [
+                {
+                "key" : "systemStringTotalWeeklyVariableName",
+                "constant" : 0,
+                },
+                {
+                "key" : "systemStringTotalWeeklyVariableValue",
+                "constant" : 0,
+                },
+                ],
+    
+    "pages": [
+              
+              
+              {
+              "key"    : "Page1",
+              "hidden"  : 0,
+              "elements": [
+                          
+                           {
+                           "type": "string",
+                           "frame": [0,32,128,50],
+                           "align": "center",
+                           "font": 0,
+                           "bold": 1,
+                           "key" : "AppName",
+                           "value" : "Hello World!"
+                           },
+                           
+                           ]
+              }
+              ]
+}

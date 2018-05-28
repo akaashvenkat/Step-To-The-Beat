@@ -1,0 +1,34 @@
+{
+    
+    "id" : "com.wahoofitness.basic",
+    
+    "buttons" :
+    {
+        "buttonSoutWest": "",
+        "buttonSoutEast": "",
+        "buttonNorthWest": "",
+        "buttonNorthEast": ""
+    },
+    
+    "pages": [
+              {
+              "key"    : "Page1",
+              "hidden"  : 0,
+              "elements": [
+                           {
+                           "type": "rect",
+                           "frame": [0,0, 128,128]
+                           },
+                           {
+                           "key": "HeartrateValueString",
+                           "type": "string",
+                           "frame": [64,70,0,0],
+                           "value": "112",
+                           "align": 1,
+                           "font": 0,
+                           "bold": 1
+                           }
+                           ]
+              }
+              ]
+}

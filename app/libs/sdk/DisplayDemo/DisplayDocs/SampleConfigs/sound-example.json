@@ -1,0 +1,40 @@
+
+{
+    "id" : "com.wahoofitness.sound-example",
+    
+    
+    "sounds" : [
+				
+                {"key": "systemSoundPowerOn",       "value": "500 150, 1000 125, 1500 100, 2000 75, 2500 50"},
+                {"key": "systemSoundPowerOff",      "value": "2500 50, 2000 75, 1500 100, 1000 125, 500 150"},
+                {"key": "systemSoundButton",        "value": "1000 100"},
+                {"key": "systemSoundNotApplicable",	"value": "500 250"},
+                {"key": "systemSoundAlertDefault",	"value": "1500 250"},
+				
+                {"key": "pageAlertSound",	"value": "C7 250"},
+
+                {
+                "key" : "wahooStartWorkoutSound",
+                "value" : "E5 125, E5 125, P 125, E5 125, P 167, C5 125, E5 125, P 125, G5 125, P 375, G4 125, P 375, C5 125, P 250, G4 125, P 250, E4 125, P 250, A4 125, P 125, B4 125, P 125, Bb4 125, P 42, A4 125, P 125, G4 125, P 125, E5 125, P 125, G5 125, P 125, A5 125, P 125, F5 125, G5 125, P 125, E5 125, P 125, C5 125, P 125, D5 125, B4 125, P 125, C5 125, P 250, G4 125, P 250, E4 125, P 250, A4 125, P 125, B4 125, P 125, Bb4 125, P 42, A4 125, P 125, G4 125, P 125, E5 125, P 125, G5 125, P 125, A5 125, P 125, F5 125, G5 125, P 125, E5 125, P 125, C5 125, P 125, D5 125, B4 125, P 375, G5 125, F#5 125, F5 125, P 42, Eb5 125, P 125, E5 125, P 167, G#4 125, A4 125, C5 125, P 125, A4 125, C5 125, D5 125, P 250, G5 125, F#5 125, F5 125, P 42, Eb5 125, P 125, E5 125, P 167, C6 125, P 125, C6 125, C6 125, P 625, G5 125, F#5 125, F5 125, P 42, Eb5 125, P 125, E5 125, P 167, G#4 125, A4 125, C5 125, P 125, A4 125, C5 125, D5 125, P 250, Eb5 125, P 250, D5 125, P 250, C5 125, P 1125, G5 125, F#5 125, F5 125, P 42, Eb5 125, P 125, E5 125, P 167, G#4 125, A4 125, C5 125, P 125, A4 125, C5 125, D5 125, P 250, G5 125, F#5 125, F5 125, P 42, Eb5 125, P 125, E5 125, P 167, C6 125, P 125, C6 125, C6 125, P 625, G5 125, F#5 125, F5 125, P 42, Eb5 125, P 125, E5 125, P 167, G#4 125, A4 125, C5 125, P 125, A4 125, C5 125, D5 125, P 250, Eb5 125, P 250, D5 125, P 250, C5 125, P 625"
+                },
+                ],
+				
+				
+				"pages": [
+			        {
+			        "key"    : "AlertPage",
+			        "elements": [
+			                      {
+									"type": "string",
+									"soundKey" : "pageAlertSound",
+			                        "frame": [0,56,128,128],
+			                        "value": "Alert Sound",
+			                        "align": "center",
+			                        "font": "System16",
+			                   	},
+							]
+					},
+				]
+				
+    
+}
