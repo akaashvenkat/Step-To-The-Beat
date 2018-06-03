@@ -1,8 +1,0 @@
-
-
-DisplayView OSX is a utility to assist in the design of the Display Configuration file. 
-
-Open the JSON file in the DisplayViewOSX app and your choice of text editor. DisplayViewOSX will monitor the file for changes on save and reload the display. You can also see useful memory information about each page.
-
-
-NOTE: Echo fonts are not currently available.
